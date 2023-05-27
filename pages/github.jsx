@@ -15,7 +15,7 @@ const GithubPage = ({ repos, user }) => {
 
   return (
     <>
-      <a href="https://github.com/drkostas" target="_blank" rel="noopener" className={styles.no_color}>
+      <a href="https://github.com/PRmars86" target="_blank" rel="noopener" className={styles.no_color}>
         <div className={styles.user}>
           <div>
             <Image
@@ -79,12 +79,12 @@ export async function getStaticProps() {
   let repos = await repoRes.json();
   repos = repos
     .sort((a, b) => {
-      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC')) {
-        return b
-      }
-      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC')) {
-        return a
-      }
+      // if (a.html_url.includes('EESTech') || a.html_url.includes('COSC')) {
+      //   return b
+      // }
+      // if (b.html_url.includes('EESTech') || b.html_url.includes('COSC')) {
+      //   return a
+      // }
 
       return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count)
     })

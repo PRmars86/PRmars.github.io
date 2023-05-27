@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio website",
+    "image": "https://imgur.com/nP4053K.png",
+    "description": "A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.",
+    "tags": [
+      "JavaScript",
+      "CSS",
+      "React-js",
+      "Next-js"
+    ],
+    "source_code": "https://github.com/PRmars86/PRmars.github.io"
+  },
+  {
+    "id": 2,
+    "name": "Personal website",
+    "image": "https://imgur.com/3uLaIUN.png",
+    "description": "A personal website",
+    "tags": [
+      "JavaScript",
+      "TypeScript",
+      "CSS"
+    ],
+    "source_code": "https://github.com/PRmars86/PRmars.github.io"
+  }
+]
