@@ -3,42 +3,32 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 'pengruima@outlook.com',
+    href: 'mailto:pengruima@outlook.com',
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/konstantinos-georgiou',
-    href: 'https://www.linkedin.com/in/konstantinos-georgiou/',
+    link: 'linkedin.com/in/pengrui-ma-aa2846214/',
+    href: 'https://www.linkedin.com/in/pengrui-ma-aa2846214/',
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
-  },
-  {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/citations?user=b___QQ8AAAA',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
-  },
-  {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    link: 'github.com/PRmars86',
+    href: 'https://github.com/PRmars86',
   },
   {
     social: 'Website',
-    link: 'gkos.tech',
-    href: 'https://gkos.tech',
+    link: 'pengrui.io',
+    href: 'https://pengrui.io',
   },
 ];
 
 const ContactCode = () => {
   return (
     <div className={styles.code}>
-       <p className={styles.line}>
-       tag: <a>production</a>
-        </p>
+      <p className={styles.line}>
+        tag: <a>production</a>
+      </p>
       <p className={styles.line}>
         <span>kostas</span>&#58;
       </p>

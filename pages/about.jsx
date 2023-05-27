@@ -1,24 +1,23 @@
 import { pdfjs, Document, Page, PDFDownloadLink } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const myResume = './Resume.pdf';
+const myResume = './CV_PengruiMa.pdf';
 
 const AboutPage = () => {
   return (
     <>
-      <h3>About Me</h3><br/>
+      <h3>About Me</h3><br />
       <ul>
-        <li><span role="img" aria-label="book">📖</span> Pursuing PhD in Data Science & Engineering @ <a href='https://bredesencenter.utk.edu/the-data-science-and-engineering-phd/'>The University of Tennessee</a>.</li>
-        <li><span role="img" aria-label="graduate-hat">🎓</span> Conducting research on <b>AI</b> and <b>Computer Vision</b> @ <a href='https://aicip.github.io/research.htm'>AICIP Lab</a>.</li>
+        <li><span role="img" aria-label="book">📖</span> Working as a software engineer intern @ <a href='https://www.upgrade.com/'>Upgrade, Inc</a>.</li>
+        <li><span role="img" aria-label="graduate-hat">🎓</span> Graduated with major in Computer Engineering from <a href='https://www.nyu.edu/'>NYU</a>.</li>
         <li><span role="img" aria-label="light-bulb">💡</span> Open to collaborating on projects and innovative ideas. </li>
-        <li><span role="img" aria-label="laptop">💻</span> Currently working on Semantic Segmentation, Domain Adaptation, and Remote Sensing. </li>
+        <li><span role="img" aria-label="laptop">💻</span> Currently learning Django, docker and linux. </li>
       </ul>
-      <br/>
+      <br />
       <center>
-        <h3>Resume (<a href={myResume} download="Resume-KonstantinosGeorgiou.pdf">Download</a>)</h3>
+        <h3>Resume (<a href={myResume} download="CV_PengruiMa.pdf">Download</a>)</h3>
         <br />
         <Document file={myResume}>
-          <Page pageIndex={0} />
-          <Page pageIndex={1} />
+          <Page scale={96 / 40} pageIndex={0} />
         </Document>
       </center>
     </>
