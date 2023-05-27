@@ -1,38 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Youtube Comment Bot",
-    "image": "https://imgur.com/bFXeKlG.png",
-    "description": "A bot that post the first comment on every new video of specified channels.",
+    "name": "Recipe app API",
+    "image": "https://i.imgur.com/1DLqp9E.png",
+    "description": "A fully functioning REST API that can handle user authentication, creating objects, filtering and sorting objects and uploading and viewing images",
     "tags": [
-      "Youtube",
-      "Gmail",
-      "Dropbox",
-      "MySQL",
+      "Python",
+      "Django",
+      "Docker",
+      "PostgreSQL",
       "AWS",
-      "RDS",
-      "CircleCI",
-      "Heroku"
+      "Test-Driven-Development"
     ],
-    "source_code": "https://github.com/PRmars86",
-    "demo": "https://www.youtube.com"
-  },
-  {
-    "id": 2,
-    "name": "Job Application Bot",
-    "image": "https://imgur.com/BX6C6ke.png",
-    "description": "A bot that automatically sends emails to new ads posted in any desired xe.gr search url.",
-    "tags": [
-      "Gmail",
-      "Dropbox",
-      "MySQL",
-      "AWS",
-      "RDS",
-      "CircleCI",
-      "Heroku",
-      "Crawler",
-      "Scraper"
-    ],
-    "source_code": "https://github.com/PRmars86"
+    "source_code": "https://github.com/PRmars86/recipe-app-api"
   }
 ]
