@@ -10,7 +10,8 @@
       "React-js",
       "Next-js"
     ],
-    "source_code": "https://github.com/PRmars86/PRmars.github.io"
+    "source_code": "https://github.com/PRmars86/PRmars.github.io",
+    "url": "https://prmars-github-io.vercel.app/projects"
   },
   {
     "id": 2,
@@ -22,6 +23,7 @@
       "TypeScript",
       "CSS"
     ],
-    "source_code": "https://github.com/PRmars86/PRmars.github.io"
+    "source_code": "https://github.com/PRmars86/PRmars.github.io",
+    "url": "https://prmars-github-io.vercel.app/projects"
   }
 ]
