@@ -16,6 +16,16 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         <div className={styles.cta}>
+          {project.url && (
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Go
+            </a>
+          )}
           {project.source_code && (
             <a
               href={project.source_code}
@@ -27,34 +37,34 @@ const ProjectCard = ({ project }) => {
             </a>
           )}
           {project.demo && (
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Demo
-          </a>
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Demo
+            </a>
           )}
           {project.scholar && (
-          <a
-            href={project.scholar}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Paper
-          </a>
+            <a
+              href={project.scholar}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Paper
+            </a>
           )}
           {project.pypi && (
-          <a
-            href={project.pypi}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            PyPi
-          </a>
+            <a
+              href={project.pypi}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              PyPi
+            </a>
           )}
         </div>
       </div>
