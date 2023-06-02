@@ -1,15 +1,18 @@
 [
   {
     "id": 1,
-    "name": "High SQL",
-    "image": "https://imgur.com/Sx43htM.png",
-    "description": "A high-level sql command utility. Currently only MySQL is supported.",
+    "name": "Hacker.io",
+    "image": "https://i.imgur.com/B1wCXxd.png",
+    "description": "Highly scalable MERN-Stack application where thousands of users can login and post/manage contents they submit",
     "tags": [
-      "PyPi",
-      "MySQL",
-      "CircleCI",
-      "wrapper"
+      "Next-js",
+      "MongoDB",
+      "React",
+      "Express",
+      "Node-js",
+      "AWS"
     ],
-    "source_code": "https://github.com/PRmars86"
+    "source_code": "https://github.com/PRmars86/Hacker.io",
+    "url": "http://ec2-18-218-142-81.us-east-2.compute.amazonaws.com/"
   }
 ]

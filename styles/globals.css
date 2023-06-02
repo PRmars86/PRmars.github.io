@@ -97,35 +97,35 @@
   background: rgba(227, 250, 135, 0.25);
 }
 
-.Pandas {
+.MongoDB {
   border: 0.1rem solid rgb(0, 54, 216);
 }
 
-.Pandas:hover {
+.MongoDB:hover {
   background: rgba(0, 54, 216, 0.25);
 }
 
-.Numpy {
+.React {
   border: 0.1rem solid rgb(251, 199, 66);
 }
 
-.Numpy:hover {
+.React:hover {
   background: rgba(251, 199, 66, 0.25);
 }
 
-.Scipy {
+.Express {
   border: 0.1rem solid rgb(5, 194, 247);
 }
 
-.Scipy:hover {
+.Express:hover {
   background: rgba(5, 194, 247, 0.25);
 }
 
-.Bayesian-Optimization {
+.Node-js {
   border: 0.1rem solid rgb(0, 0, 0);
 }
 
-.Bayesian-Optimization:hover {
+.Node-js:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 

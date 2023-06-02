@@ -23,7 +23,7 @@ const ProjectCard = ({ project }) => {
               rel="noopener noreferrer"
               className={styles.underline}
             >
-              Link
+              Try it out
             </a>
           )}
           {project.source_code && (
