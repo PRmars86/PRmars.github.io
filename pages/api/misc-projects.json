@@ -1,17 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Spotify Button Presser",
-    "image": "https://imgur.com/Ek1p3sE.png",
-    "description": "An app that clicks a physical button whenever Spotify starts playing on the target device.",
+    "name": "Jump Man",
+    "image": "https://i.imgur.com/CjRG747.png",
+    "description": "2D runner game designed in Python with Pygame.",
     "tags": [
-      "RaspberryPI",
-      "Spotify",
-      "SwitchBot",
-      "button-presser",
-      "automation",
-      "smart-home"
+      "Python",
+      "Pygame"
     ],
-    "source_code": "https://github.com/PRmars86"
+    "source_code": "https://github.com/PRmars86/jumpMan",
+    "url": "https://github.com/PRmars86/jumpMan"
   }
 ]
