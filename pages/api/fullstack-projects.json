@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Star Social",
     "image": "https://i.imgur.com/LPzLquw.png",
-    "description": "A social-media like website support multi-user and CRUD functions",
+    "description": "A social-media like website support multi-user and CRUD functions for usergroup/posts",
     "tags": [
       "Python",
       "Django",
