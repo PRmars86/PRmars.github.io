@@ -14,5 +14,19 @@
     ],
     "source_code": "https://github.com/PRmars86/Hacker.io",
     "url": "http://ec2-18-218-142-81.us-east-2.compute.amazonaws.com/"
+  },
+  {
+    "id": 2,
+    "name": "Star Social",
+    "image": "https://i.imgur.com/LPzLquw.png",
+    "description": "A social-media like website support multi-user and CRUD functions",
+    "tags": [
+      "Python",
+      "Django",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "source_code": "https://github.com/PRmars86/ezSocial"
   }
 ]

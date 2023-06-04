@@ -15,15 +15,16 @@
   },
   {
     "id": 2,
-    "name": "Personal website",
-    "image": "https://imgur.com/3uLaIUN.png",
-    "description": "A personal website",
+    "name": "Star Social",
+    "image": "https://i.imgur.com/LPzLquw.png",
+    "description": "A social-media like website support multi-user and CRUD functions for usergroup/posts",
     "tags": [
+      "Python",
+      "Django",
       "JavaScript",
-      "TypeScript",
-      "CSS"
+      "CSS",
+      "HTML"
     ],
-    "source_code": "https://github.com/PRmars86/PRmars.github.io",
-    "url": "https://prmars-github-io.vercel.app/projects"
+    "source_code": "https://github.com/PRmars86/ezSocial"
   }
 ]
