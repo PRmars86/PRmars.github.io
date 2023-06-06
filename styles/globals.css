@@ -145,19 +145,19 @@
   background: rgba(0, 0, 0, 0.25);
 }
 
-.Neural-Network {
+.PostgreSQL {
   border: 0.1rem solid rgb(170, 170, 248);
 }
 
-.Neural-Network:hover {
+.PostgreSQL:hover {
   background: rgba(170, 170, 248, 0.25);
 }
 
-.K-Means {
+.REST-api {
   border: 0.1rem solid rgb(0, 0, 0);
 }
 
-.K-Means:hover {
+.REST-api:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 

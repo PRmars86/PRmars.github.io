@@ -17,16 +17,16 @@
   },
   {
     "id": 2,
-    "name": "Star Social",
-    "image": "https://i.imgur.com/LPzLquw.png",
-    "description": "A social-media like website support multi-user and CRUD functions for usergroup/posts",
+    "name": "Pizza shop",
+    "image": "https://i.imgur.com/4Hm4prf.png",
+    "description": "Pizza shopping website where users can quickly navigate main page and pizza details page with Next.js",
     "tags": [
-      "Python",
+      "Next-js",
       "Django",
-      "JavaScript",
-      "CSS",
-      "HTML"
+      "REST-api",
+      "PostgreSQL"
     ],
-    "source_code": "https://github.com/PRmars86/ezSocial"
+    "source_code": "https://github.com/PRmars86/ezPizza",
+    "url": "https://ez-pizza.vercel.app/"
   }
 ]
