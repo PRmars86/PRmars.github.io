@@ -161,19 +161,19 @@
   background: rgba(0, 0, 0, 0.25);
 }
 
-.Apache-Spark {
+.Heroku {
   border: 0.1rem solid rgb(170, 170, 248);
 }
 
-.Apache-Spark:hover {
+.Heroku:hover {
   background: rgba(170, 170, 248, 0.25);
 }
 
-.Social-Networks {
+.Vercel {
   border: 0.1rem solid rgb(8, 0, 255);
 }
 
-.Social-Networks:hover {
+.Vercel:hover {
   background: rgba(8, 0, 255, 0.25);
 }
 

@@ -8,7 +8,8 @@
       "JavaScript",
       "CSS",
       "React-js",
-      "Next-js"
+      "Next-js",
+      "Vercel"
     ],
     "source_code": "https://github.com/PRmars86/PRmars.github.io",
     "url": "https://prmars-github-io.vercel.app/projects"
@@ -23,7 +24,7 @@
       "Django",
       "JavaScript",
       "CSS",
-      "HTML"
+      "Heroku"
     ],
     "source_code": "https://github.com/PRmars86/ezSocial",
     "url": "https://star-social.herokuapp.com/"

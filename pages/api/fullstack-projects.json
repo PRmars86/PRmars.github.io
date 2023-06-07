@@ -24,7 +24,8 @@
       "Next-js",
       "Django",
       "REST-api",
-      "PostgreSQL"
+      "PostgreSQL",
+      "Vercel"
     ],
     "source_code": "https://github.com/PRmars86/ezPizza",
     "url": "https://ez-pizza.vercel.app/"
