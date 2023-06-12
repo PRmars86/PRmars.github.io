@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "name": "Pizza shop server",
+    "name": "Pizza shop_server",
     "image": "https://i.imgur.com/q4X8dka.png",
     "description": "Back-end server designed with Django REST framework and deployed to Heroku",
     "tags": [
@@ -44,5 +44,18 @@
     ],
     "source_code": "https://github.com/PRmars86/ezPizza-server",
     "url": "https://ez-pizza.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Luv2shop_server",
+    "image": "https://i.imgur.com/H32iixf.png",
+    "description": "Online bookstore where users can navigate books with different categories, view/update cart and proceed to checkout",
+    "tags": [
+      "Spring-Boot",
+      "Angular",
+      "MySQL",
+      "REST-api"
+    ],
+    "source_code": "https://github.com/PRmars86/luv2Shop_server"
   }
 ]

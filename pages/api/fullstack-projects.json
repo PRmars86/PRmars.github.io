@@ -29,5 +29,18 @@
     ],
     "source_code": "https://github.com/PRmars86/ezPizza",
     "url": "https://ez-pizza.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Luv2shop",
+    "image": "https://i.imgur.com/BCuUl5U.png",
+    "description": "Online bookstore where users can navigate books with different categories, view/update cart and proceed to checkout",
+    "tags": [
+      "Spring-Boot",
+      "Angular",
+      "MySQL",
+      "REST-api"
+    ],
+    "source_code": "https://github.com/PRmars86/luv2Shop_client"
   }
 ]
