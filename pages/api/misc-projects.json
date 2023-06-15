@@ -1,5 +1,17 @@
 [
   {
+    "id": 2,
+    "name": "OpenAI API Wrapper",
+    "image": "https://i.imgur.com/BisxDP4.png",
+    "description": "An API wrapper including chat, completion. imageCreate api and deployed to Azure function apps",
+    "tags": [
+      "Python",
+      "Azure",
+      "OpenAI"
+    ],
+    "source_code": "https://github.com/PRmars86/OpenAI_API_Wrapper"
+  },
+  {
     "id": 1,
     "name": "Jump Man",
     "image": "https://i.imgur.com/CjRG747.png",
