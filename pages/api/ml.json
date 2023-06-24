@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "name": "Reinforcement Mario",
+      "image": "https://i.imgur.com/pRJhmjt.png",
+      "description": "Training an agent to clear Super Mario Bros with deep reinforcement learning methods.",
+      "tags": [
+        "Python",
+        "RL",
+        "PyTorch"
+      ],
+      "source_code": "https://github.com/PRmars86/RL_Mario"
+    }
+  ]

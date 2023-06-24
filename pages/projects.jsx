@@ -3,9 +3,10 @@ import { getFrontEndProjects } from './api/frontend-projects';
 import { getBackEndProjects } from './api/backend-projects';
 import { getFullStackProjects } from './api/fullstack-projects';
 import { getMiscProjects } from './api/misc-projects';
+import { getMLProjects } from './api/ml';
 import styles from '../styles/ProjectsPage.module.css';
 
-const ProjectsPage = ({ frontend_projects, backend_projects, fullstack_projects, misc_projects }) => {
+const ProjectsPage = ({ frontend_projects, backend_projects, fullstack_projects, misc_projects, ml_projects }) => {
   return (
     <>
       <h3>Open Source Projects</h3>
@@ -34,6 +35,14 @@ const ProjectsPage = ({ frontend_projects, backend_projects, fullstack_projects,
         ))}
       </div>
       <br />
+      <center><h4>Machine learning</h4></center>
+      <hr />
+      <div className={styles.container}>
+        {ml_projects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
+      <br />
       <center><h4>Other Projects</h4></center>
       <hr />
       <div className={styles.container}>
@@ -50,9 +59,10 @@ export async function getStaticProps() {
   const backend_projects = getBackEndProjects();
   const fullstack_projects = getFullStackProjects();
   const misc_projects = getMiscProjects();
+  const ml_projects = getMLProjects();
 
   return {
-    props: { title: 'Projects', frontend_projects, backend_projects, fullstack_projects, misc_projects },
+    props: { title: 'Projects', frontend_projects, backend_projects, fullstack_projects, misc_projects,ml_projects },
   };
 }
 
